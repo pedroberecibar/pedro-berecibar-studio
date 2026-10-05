@@ -1,0 +1,35 @@
+# Build y tipos generados
+dist/
+.astro/
+
+# Dependencias
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Secretos: nunca al repo
+.env
+.env.*
+!.env.example
+.dev.vars*
+*.pem
+*.key
+# Configuración MCP local (puede llevar tokens, p. ej. shadcn.io Pro)
+.mcp.json
+
+# Cloudflare / herramientas locales
+.wrangler/
+.claude/settings.local.json
+.worktrees/
+.gstack/
+.superpowers/
+
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
